@@ -1,0 +1,19 @@
+# NextHA configuration - copy this file to /sys/ha.cfg on the Next's SD card
+# (or to ha.cfg in the directory you run .ha from) and edit the values.
+# Lines starting with # are comments. See docs/ha-cfg.md for every option.
+
+# Hostname or IP address of your Home Assistant instance (plain HTTP on the LAN).
+host=192.168.1.10
+
+# HA's HTTP port (default 8123).
+port=8123
+
+# A long-lived access token: in HA open your Profile -> Security ->
+# "Long-lived access tokens" -> Create token, then paste it here (one line, up to 255 chars).
+token=PASTE_YOUR_LONG_LIVED_ACCESS_TOKEN_HERE
+
+# Optional: override the Jinja template used by ".ha tmpl" when the bank is empty.
+# Must be a single line (up to 511 chars); use {{ "\n" }} inside the template for line breaks.
+# The default lists lights, switches, fans, covers, locks and input_booleans as
+# entity_id|state|name, one per line.
+#template={% for s in states.light %}{{ s.entity_id }}|{{ s.state }}|{{ s.name }}{{ "\n" }}{% endfor %}

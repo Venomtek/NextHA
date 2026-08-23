@@ -1,0 +1,23 @@
+./*
+docs/dev/
+docs/superpowers/
+CLAUDE.md
+# build outputs
+*.obj
+*.exe
+*.o
+*.bin
+*.map
+*.def
+zcc_opt.def
+build_ha.log
+/HA
+HA_*.bin
+ATPROBE
+spike/ATPROBE
+/ha.lib
+tools/out/
+# dist/HA and dist/ha.cfg.example are shipped in git; the rest of dist/ is rebuilt by build.cmd
+dist/ha.lib
+dist/include/
+examples/c/TOGGLE_*.bin
