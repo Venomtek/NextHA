@@ -105,6 +105,10 @@ tools\build_hacli.cmd
 - A `-x` flag to skip ESP re-initialisation on repeated dot
   invocations.
 
+## Other ZX Spectrum Next projects
+
+- [NextDAAD](https://github.com/absent42/NextDAAD) - DAAD text adventure interpreter and authoring kit.
+
 ## Licence
 
 MIT - see `LICENSE`.
