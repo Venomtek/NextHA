@@ -22,7 +22,6 @@ there is one implementation.
 - An ESP-01 Wi-Fi module fitted to the Next's UART, joined to a Wi-Fi
   network that can reach your Home Assistant instance.
 - A Home Assistant instance reachable on that network over plain HTTP
-  (v0.1 does not support HTTPS/TLS - see "Status / not yet" below).
 
 ## Install
 
@@ -100,7 +99,6 @@ tools\build_hacli.cmd
 
 - The tilemap client application
 - Webhook path - NextHA only talks to HA's stock REST API.
-- TLS/HTTPS - HA must be reachable on the LAN over plain HTTP.
 - HTTP chunked transfer encoding (detected and rejected, not decoded).
 - NextBASIC string-variable arguments to `.ha` (arguments are literal
   strings only).
