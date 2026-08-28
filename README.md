@@ -14,6 +14,8 @@ instance over Wi-Fi. It is two things built from one shared engine:
 `.HA` is built from the same engine sources that `ha.lib` packages;
 there is one implementation.
 
+<img src="examples/dotHA.png" alt="dotHA - ZX Spectrum Next Home Assistant" width="934">
+
 ## Hardware needed
 
 - A ZX Spectrum Next running NextZXOS/esxdos, with an SD card.
